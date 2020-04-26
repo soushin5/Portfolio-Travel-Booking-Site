@@ -1,0 +1,54 @@
+Change Log:
+12/11/2019: 2:11pm
+Stylesheet.css has been updated
+*img and fieldset.adjust
+
+added cc.php
+
+added cc-submit.php
+
+added credit card icons
+
+dbFunctions has been updated
+*ccRegister() added
+
+added jsFunctions.js
+
+12/11/2019: 2:49pm
+added browse.php
+
+main.php updated
+*added link to CC
+*added link to browse inventory
+
+12/11/2019: 4:16 pm
+session variables to enable login added to all files
+
+updated dbFunctions
+*browse() added
+
+logout.php added
+
+12/11/2019: 6:41pm
+profile.php updated
+
+dbFunctions.php updated
+*added viewUser
+*added viewOrders
+*added viewFullName
+*added viewCC
+*added orderUpdate
+
+shoppingcart.php updated
+*link added to prepay.php
+
+all pages updated to have correct Sessions
+
+12/11/2019: 7:27pm
+updated dbFunctions
+*fixed error where it stopped displaying CC numbers in view profile
+
+
+
+
+

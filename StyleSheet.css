@@ -1,0 +1,237 @@
+﻿@font-face
+{
+    font-family: Travel Goals;
+    src: url(TravelGoals.otf);
+}
+body 
+{
+    background-image: url(plane.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1
+{
+    font-family: 'Travel Goals';
+    text-align: center;
+    font-size: 75pt;
+    text-shadow: 2px 0 5px #FFFFFF;
+}
+a 
+{
+    text-decoration: none;
+    color: black;
+    display: block;
+    text-align: center;
+    font-family: 'Travel Goals';
+    font-size: 45pt;
+    text-shadow: 2px 0 5px #FFFFFF;
+    transition: .2s;
+}
+a:hover
+{
+    font-size: 50pt;
+}
+h2
+{
+    font-family: 'Travel Goals';
+    text-align: center;
+    font-size: 30pt;
+    text-shadow: 2px 0 5px #FFFFFF;
+}
+h3 
+{
+    font-family: 'Travel Goals';
+    font-size: 20pt;
+    text-shadow: 2px 0 5px #FFFFFF;
+}
+.linkb:hover
+{
+    font-size: 45pt;
+}
+#topcorner {
+    position: absolute;
+    top: 0;
+    right: 5px;
+}
+.topa 
+{
+    text-align: right;
+    font-size: 15pt;
+}
+.topa:hover
+{
+    font-size:15pt;
+}
+#sarahTable 
+{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFEEE4;
+    padding: 10px;
+    width: inherit;
+    border: none;
+    border-collapse: inherit;
+    border-spacing: 2px;
+}
+.sarahtd 
+{
+    margin: 0;
+    border: none;
+    background-color: #FFEEE4;
+}
+.sarahth
+{
+    margin: 0;
+    border:none;
+}
+label
+{
+    height: 100%;
+    width: 100%;
+}
+input[type=radio] 
+{
+    opacity: 0;
+}
+input[type=submit] 
+{
+    display: block;
+    margin: 0 auto;
+	font-family: 'Travel Goals';
+}
+
+.seat
+{
+    width: 20px;
+    height: 20px;
+}
+.seatSelected
+{
+    background-color: blue;
+}
+.seatAvailable
+{
+    width: 20px;
+    height: 20px;
+    background-color: green;
+}
+.seatUnavailable
+{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+}
+#box
+{
+    background-color: white;
+    border: solid 3px black;
+    width: 1000px;
+    margin: auto;
+}
+/*matt's stuff*/
+h1.adjust {
+    margin-bottom: .45em;
+}
+
+fieldset {
+    text-align: center;
+    font-family: 'Travel Goals';
+}
+
+fieldset.adjust {
+    border-radius: 5px;
+	width: 300px;
+	margin: auto;
+}
+button {
+    font-family: 'Travel Goals';
+}
+img{
+	width: 50px;
+    height: 50px;
+}
+label#adjust {
+    text-align: center;
+}
+/*fieldset label.left,
+fieldset input.left{
+	float: left;
+	width: 5em;
+}*/
+/*fieldset label.right,
+fieldset input.right{
+	float: right;
+	width: 15em;
+}*/
+/*ramisa's stuff*/
+.cards {
+    width: 100%;
+    height: 40px;
+    display: block;
+    top: 0;
+    left: 0;
+}
+.available {
+    background-color: #499c49;
+}
+
+.not-available {
+    background-color: red;
+}
+
+.available:hover {
+    background-color: yellow;
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 5; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+}
+
+.yellow {
+    background-color: grey;
+}
+
+.vip-card {
+    border: 10px solid gold;
+    width: auto;
+}
+
+#parkingGrid {
+    margin: auto;
+    padding: 10px;
+    width: 70%;
+    margin-bottom: 200px;
+}
+
+table {
+    background-color: #FFEEE4;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 10px 10px;
+}
+table, th, td {
+    text-align: center;
+    border: 1px solid black;
+}
+tr {
+    margin: 10px;
+}
+td {
+    background-color: gray;
+}
